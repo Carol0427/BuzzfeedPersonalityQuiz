@@ -1,0 +1,85 @@
+body {
+	font-family: 'Dongle', sans-serif;
+
+}
+.center{
+    display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+}
+.labels {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+}
+.label {
+	text-align: center;
+	font-size: 30px;
+	width: 120px;
+	height: 50px;
+	border-style: solid;
+	max-width: 100%;
+	max-heigth: 100%;
+	object-fit: cover;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pic {
+	width: 200px;
+	height: 250px;
+	border-style: solid;
+	max-width: 100%;
+	max-heigth: 100%;
+	object-fit: cover;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pic:hover{
+	opacity: 50%;
+}
+.question {
+	font-size: 50px;
+	text-align: center;
+	padding-bottom: 0px;
+	border-style: solid;
+}
+#title{
+	font-size: 80px;
+	text-align: center;
+	background-color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#title_pic{
+	height: 300px;
+	width: 500px;
+	border-style: solid;
+}
+#start_button{
+	font-size: 60px;
+	border-style: solid;
+	width: 150px;
+	justify-content: center;
+	margin-top: 20px;
+	background-color: white;
+}
+#start_button:hover {
+	background-image: url("https://i.pinimg.com/originals/d0/45/6e/d0456e80877753487e03deaab16c3d26.gif");
+}
+#submit{
+	font-size: 60px;
+	border-style: solid;
+	width: 150px;
+	justify-content: center;
+	margin-top: 20px;
+}
+#submit:hover {
+	background-image: url("https://thumbs.gfycat.com/HelplessActualFrigatebird-max-1mb.gif");
+}
+#results{
+	margin-top: 20px;
+	font-size: 60px;
+	border-style: solid;
+}
